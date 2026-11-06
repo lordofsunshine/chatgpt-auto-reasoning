@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         ChatGPT Auto Reasoning
-// @namespace    https://github.com/lordofsunshine
+// @namespace    https://greasyfork.org/ru/scripts/604103-chatgpt-auto-reasoning
 // @version      1.0.0
-// @description  Automatically turns on Reasoning for every new message in any ChatGPT chat.
+// @description  Automatically turns on Reasoning for every new message in any ChatGPT chat. Tested on ChatGPT GO.
 // @author       lordofsunshine
-// @homepageURL  https://github.com/lordofsunshine
-// @supportURL   https://github.com/lordofsunshine
+// @homepageURL  https://github.com/lordofsunshine/chatgpt-auto-reasoning
+// @supportURL   https://github.com/lordofsunshine/chatgpt-auto-reasoning/issues
+// @downloadURL  https://update.greasyfork.org/scripts/604103/ChatGPT%20Auto%20Reasoning.user.js
+// @updateURL    https://update.greasyfork.org/scripts/604103/ChatGPT%20Auto%20Reasoning.meta.js
 // @license      MIT
 // @match        https://chatgpt.com/*
 // @match        https://chat.openai.com/*
