@@ -8,8 +8,6 @@
 
 </div>
 
----
-
 <a id="english"></a>
 
 ## 🇬🇧 English
@@ -18,9 +16,9 @@ A userscript that keeps Reasoning mode enabled in ChatGPT. ChatGPT resets Reason
 
 ### What It Does
 
-🔄 - **Monitors page changes** using `MutationObserver`, because ChatGPT works as a single-page application and switching between chats does not reload the browser tab. Additionally, it checks every 1200 ms to make sure Reasoning is still enabled.
-🧠 - **Detects the Reasoning button** using multiple indicators: the `aria-pressed` attribute, the brain icon, and the "Reasoning" label in more than twenty interface languages. If the button is not present in the message input area, the script opens the "+" menu and checks for it there.
-⚡ - **Intercepts message submission** when Reasoning is disabled: cancels the submission, enables Reasoning, and resends the text after 180 ms. Your message reaches ChatGPT with Reasoning already enabled.
+🔄 - **Monitors page changes** using `MutationObserver`, because ChatGPT works as a single-page application and switching between chats does not reload the browser tab. Additionally, it checks every 1200 ms to make sure Reasoning is still enabled.<br>
+🧠 - **Detects the Reasoning button** using multiple indicators: the `aria-pressed` attribute, the brain icon, and the "Reasoning" label in more than twenty interface languages. If the button is not present in the message input area, the script opens the "+" menu and checks for it there.<br>
+⚡ - **Intercepts message submission** when Reasoning is disabled: cancels the submission, enables Reasoning, and resends the text after 180 ms. Your message reaches ChatGPT with Reasoning already enabled.<br>
 🔒 - **Respects your privacy:** makes no network requests, does not read conversations, and does not request additional permissions. The manifest uses `@grant none`.
 
 ### 📥 Installation
@@ -64,9 +62,9 @@ MIT License. This project is not affiliated with OpenAI. The script only interac
 
 ### Что делает скрипт
 
-🔄 - **Отслеживает изменения страницы** через `MutationObserver`, поскольку ChatGPT работает как одностраничное приложение и переход между чатами не перезагружает вкладку. Дополнительно раз в 1200 мс проверяет, что режим всё ещё включён.
-🧠 - **Находит кнопку Reasoning** по нескольким признакам сразу: атрибуту `aria-pressed`, иконке мозга и подписи «Reasoning» более чем на двадцати языках интерфейса. Если в поле ввода такой кнопки нет, скрипт открывает меню «+» и проверяет пункт там.
-⚡ - **Перехватывает отправку сообщения**, если режим выключен: отменяет отправку, включает Reasoning и повторно отправляет текст через 180 мс. Ваш вопрос попадает в ChatGPT уже с включённым режимом размышления.
+🔄 - **Отслеживает изменения страницы** через `MutationObserver`, поскольку ChatGPT работает как одностраничное приложение и переход между чатами не перезагружает вкладку. Дополнительно раз в 1200 мс проверяет, что режим всё ещё включён.<br>
+🧠 - **Находит кнопку Reasoning** по нескольким признакам сразу: атрибуту `aria-pressed`, иконке мозга и подписи «Reasoning» более чем на двадцати языках интерфейса. Если в поле ввода такой кнопки нет, скрипт открывает меню «+» и проверяет пункт там.<br>
+⚡ - **Перехватывает отправку сообщения**, если режим выключен: отменяет отправку, включает Reasoning и повторно отправляет текст через 180 мс. Ваш вопрос попадает в ChatGPT уже с включённым режимом размышления.<br>
 🔒 - **Соблюдает приватность:** не делает сетевых запросов, не читает переписку и не запрашивает дополнительных разрешений. В манифесте указан `@grant none`.
 
 ### 📥 Установка
